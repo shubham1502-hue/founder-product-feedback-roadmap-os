@@ -1,0 +1,23 @@
+gap_id,feedback_theme,product_area,count,affected_segments,affected_accounts,estimated_revenue_blocked,retention_risk_count,expansion_opportunity_count,suggested_resolution,owner_role
+GAP-008,Enterprise controls,Admin,3,Enterprise,Cedar Bank; Greenfield Capital; NovaPay Systems,430000,2,3,Validate Enterprise controls with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-004,CRM integration,Integrations,3,Enterprise; Mid-market; Growth,Aster Analytics; Northstar Robotics; Cloudlane Ops,267000,1,3,Validate CRM integration with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-016,Security export,Admin,1,Enterprise,Ironclad Manufacturing,220000,1,1,Scope the highest leverage Security export fix this cycle.,Product
+GAP-002,Activation bug,Onboarding,2,Enterprise; Mid-market,Keystone Finance; Quartz Logistics,181000,2,1,Scope the highest leverage Activation bug fix this cycle.,Founder or Product
+GAP-022,Workflow automation,Automation,2,Mid-market,Vector Cloud; Oakstone HR,70000,2,1,Validate Workflow automation with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-015,Sales narrative,Onboarding,1,Mid-market,HelioWorks,66000,0,0,Resolve Sales narrative through sales narrative before adding product scope.,Sales or Founder
+GAP-012,Onboarding checklist,Onboarding,1,Mid-market,Summit Legal Ops,40000,1,0,Resolve Onboarding checklist through onboarding before adding product scope.,Customer Success
+GAP-017,Setup workflow,Onboarding,1,Mid-market,Beacon Benefits,30000,1,0,Resolve Setup workflow through onboarding before adding product scope.,Customer Success
+GAP-005,Customer proof,Reporting,2,Growth,BluePeak Software; SignalForge AI,30000,0,2,Track Customer proof as a roadmap candidate and review next cycle.,Customer Success
+GAP-006,Dashboard performance,Reporting,2,Growth; Mid-market,Luma Health; Atlas Legal,25000,2,1,Validate Dashboard performance with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-014,Reporting gap,Reporting,2,Enterprise,Riverbend Insurance; Harbor Freight Systems,0,2,2,Validate Reporting gap with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-003,Admin analytics,Reporting,2,Enterprise,Horizon Clinics; Apex Robotics,0,1,2,Validate Admin analytics with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-001,API reliability,API,1,Enterprise,Zenith Supply,0,1,1,Validate API reliability with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-011,Notification reliability,API,1,Growth,Novel Foods,0,1,1,Validate Notification reliability with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-007,Documentation gap,Documentation,2,Mid-market,Metro Clinics; Evergreen Retail,0,1,0,Resolve Documentation gap through support process before adding product scope.,Support or Customer Success
+GAP-020,Training gap,Onboarding,1,Growth,Pioneer AI Studio,0,1,0,Resolve Training gap through onboarding before adding product scope.,Customer Success
+GAP-019,Team permissions,Permissions,2,Enterprise; Mid-market,TerraGrid Energy; Orbit Labs,0,0,2,Validate Team permissions with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-021,Usage reporting,Reporting,1,Enterprise,Falcon Security,0,0,1,Validate Usage reporting with affected accounts before committing roadmap capacity.,Founder or Product
+GAP-010,Niche customization,Reporting,2,SMB,Silverline Retail; Prairie Accounting,0,0,0,Reject or archive Niche customization unless strategic fit changes.,Founder
+GAP-009,Niche customization,Admin,1,SMB,Maple Dental Group,0,0,0,Reject or archive Niche customization unless strategic fit changes.,Founder
+GAP-013,Pricing packaging,Packaging,1,Growth,Canyon Analytics,0,0,0,Track Pricing packaging as a roadmap candidate and review next cycle.,Founder
+GAP-018,Support triage,Support Experience,1,Mid-market,Meridian Schools,0,0,0,Resolve Support triage through support process before adding product scope.,Support or Customer Success

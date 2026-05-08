@@ -1,0 +1,36 @@
+customer_name,segment,account_value,feedback_count,top_themes,revenue_blocked,retention_risk,expansion_potential,recommended_account_action
+Cedar Bank,Enterprise,250000,1,Enterprise controls,250000,Medium,High,Review in roadmap decision meeting this week.
+Ironclad Manufacturing,Enterprise,220000,1,Security export,220000,Medium,High,Review in roadmap decision meeting this week.
+Greenfield Capital,Enterprise,180000,1,Enterprise controls,180000,Medium,Medium,Validate problem with customer before roadmap commitment.
+Aster Analytics,Enterprise,140000,1,CRM integration,140000,Medium,High,Review in roadmap decision meeting this week.
+Keystone Finance,Enterprise,160000,1,Activation bug,120000,High,Medium,Review in roadmap decision meeting this week.
+Northstar Robotics,Mid-market,82000,1,CRM integration,82000,Low,Medium,Validate problem with customer before roadmap commitment.
+Vector Cloud,Mid-market,90000,1,Workflow automation,70000,Medium,High,Validate problem with customer before roadmap commitment.
+HelioWorks,Mid-market,66000,1,Sales narrative,66000,Low,Low,Assign non-product owner and confirm customer expectation.
+Quartz Logistics,Mid-market,61000,1,Activation bug,61000,High,Low,Validate problem with customer before roadmap commitment.
+Cloudlane Ops,Growth,45000,1,CRM integration,45000,Low,Medium,Validate problem with customer before roadmap commitment.
+Summit Legal Ops,Mid-market,85000,1,Onboarding checklist,40000,Medium,Low,Assign non-product owner and confirm customer expectation.
+Beacon Benefits,Mid-market,68000,1,Setup workflow,30000,Medium,Low,Assign non-product owner and confirm customer expectation.
+SignalForge AI,Growth,50000,1,Customer proof,30000,Low,Medium,Monitor and revisit if signal repeats.
+Atlas Legal,Mid-market,74000,1,Dashboard performance,25000,Medium,Low,Validate problem with customer before roadmap commitment.
+Harbor Freight Systems,Enterprise,210000,1,Reporting gap,0,Critical,High,Review in roadmap decision meeting this week.
+Riverbend Insurance,Enterprise,190000,1,Reporting gap,0,Critical,Medium,Validate problem with customer before roadmap commitment.
+Zenith Supply,Enterprise,175000,1,API reliability,0,High,High,Validate problem with customer before roadmap commitment.
+Falcon Security,Enterprise,155000,1,Usage reporting,0,Low,High,Validate problem with customer before roadmap commitment.
+NovaPay Systems,Enterprise,145000,1,Enterprise controls,0,Low,High,Validate problem with customer before roadmap commitment.
+Horizon Clinics,Enterprise,132000,1,Admin analytics,0,Critical,Medium,Validate problem with customer before roadmap commitment.
+TerraGrid Energy,Enterprise,125000,1,Team permissions,0,Low,High,Validate problem with customer before roadmap commitment.
+Apex Robotics,Enterprise,118000,1,Admin analytics,0,Low,High,Validate problem with customer before roadmap commitment.
+Oakstone HR,Mid-market,72000,1,Workflow automation,0,High,Low,Validate problem with customer before roadmap commitment.
+Orbit Labs,Mid-market,64000,1,Team permissions,0,Low,High,Validate problem with customer before roadmap commitment.
+Metro Clinics,Mid-market,58000,1,Documentation gap,0,Low,Low,Assign non-product owner and confirm customer expectation.
+Evergreen Retail,Mid-market,55000,1,Documentation gap,0,Medium,Low,Assign non-product owner and confirm customer expectation.
+Luma Health,Growth,52000,1,Dashboard performance,0,Medium,Medium,Validate problem with customer before roadmap commitment.
+Meridian Schools,Mid-market,47000,1,Support triage,0,Low,Low,Assign non-product owner and confirm customer expectation.
+BluePeak Software,Growth,44000,1,Customer proof,0,Low,Medium,Monitor and revisit if signal repeats.
+Pioneer AI Studio,Growth,38000,1,Training gap,0,Medium,Low,Assign non-product owner and confirm customer expectation.
+Novel Foods,Growth,36000,1,Notification reliability,0,Medium,Medium,Validate problem with customer before roadmap commitment.
+Canyon Analytics,Growth,34000,1,Pricing packaging,0,None,Low,Monitor and revisit if signal repeats.
+Maple Dental Group,SMB,18000,1,Niche customization,0,None,Low,Monitor and revisit if signal repeats.
+Prairie Accounting,SMB,15000,1,Niche customization,0,Low,None,Monitor and revisit if signal repeats.
+Silverline Retail,SMB,12000,1,Niche customization,0,None,None,Monitor and revisit if signal repeats.

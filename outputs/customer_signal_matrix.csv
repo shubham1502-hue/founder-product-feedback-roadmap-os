@@ -1,0 +1,22 @@
+feedback_theme,source_mix,lifecycle_stages,customer_segments,account_value_impacted,signal_strength,decision_implication
+Enterprise controls,Sales call; Customer success,Sales; Expansion,Enterprise,575000,Strong,Validate Enterprise controls before build decision.
+Reporting gap,Retention review; Renewal review,Retention; Renewal,Enterprise,400000,Strong,Prioritize Reporting gap in current roadmap cycle.
+CRM integration,Sales call; Founder observation,Sales; Demo,Enterprise; Mid-market; Growth,267000,Strong,Validate CRM integration before build decision.
+Activation bug,Onboarding,Activation,Enterprise; Mid-market,221000,Strong,Prioritize Activation bug in current roadmap cycle.
+Security export,Sales call,Sales,Enterprise,220000,Strong,Prioritize Security export in current roadmap cycle.
+Admin analytics,Retention review; Expansion review,Renewal; Expansion,Enterprise,250000,Moderate,Validate Admin analytics before build decision.
+Team permissions,Expansion review; Customer success,Expansion,Enterprise; Mid-market,189000,Moderate,Validate Team permissions before build decision.
+API reliability,Retention review,Retention,Enterprise,175000,Moderate,Validate API reliability before build decision.
+Workflow automation,Founder observation; Churn interview,Demo; Retention,Mid-market,162000,Moderate,Validate Workflow automation before build decision.
+Usage reporting,Expansion review,Expansion,Enterprise,155000,Moderate,Validate Usage reporting before build decision.
+Dashboard performance,Support,Support,Growth; Mid-market,126000,Moderate,Validate Dashboard performance before build decision.
+Documentation gap,Support,Support,Mid-market,113000,Moderate,Fix Documentation gap outside core product roadmap first.
+Customer proof,Customer success; Founder observation,Retention; Demo,Growth,94000,Moderate,Monitor Customer proof and revisit if signal strengthens.
+Onboarding checklist,Onboarding,Onboarding,Mid-market,85000,Moderate,Fix Onboarding checklist outside core product roadmap first.
+Setup workflow,Onboarding,Onboarding,Mid-market,68000,Moderate,Fix Setup workflow outside core product roadmap first.
+Sales narrative,Sales call,Sales,Mid-market,66000,Moderate,Fix Sales narrative outside core product roadmap first.
+Niche customization,Support; Sales call; Customer success,Support; Sales; Retention,SMB,45000,Moderate,Monitor Niche customization and revisit if signal strengthens.
+Support triage,Support,Support,Mid-market,47000,Weak,Fix Support triage outside core product roadmap first.
+Training gap,Onboarding,Onboarding,Growth,38000,Weak,Fix Training gap outside core product roadmap first.
+Notification reliability,Support,Support,Growth,36000,Weak,Validate Notification reliability before build decision.
+Pricing packaging,Sales call,Sales,Growth,34000,Weak,Monitor Pricing packaging and revisit if signal strengthens.

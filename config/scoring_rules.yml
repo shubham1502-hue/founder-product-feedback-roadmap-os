@@ -1,0 +1,26 @@
+scoring_method: "Deterministic weighted scoring. Edit weights to match your company priorities."
+weights:
+  frequency_signal: 1.2
+  revenue_blocked: 1.4
+  retention_risk: 1.3
+  expansion_potential: 1.1
+  strategic_alignment: 1.3
+  customer_urgency: 1.0
+  account_value: 1.0
+  severity: 1.1
+  workaround_available: 0.8
+  implementation_effort: 0.8
+  confidence_level: 0.8
+  lifecycle_stage: 0.7
+  segment_fit: 0.8
+  roadmap_capacity: 0.4
+category_thresholds:
+  build_now: 80
+  validate_next: 60
+  watch: 40
+  defer: 20
+decision_notes:
+  build_now: "Build when priority is high and effort is not very high."
+  validate_with_customers: "Validate when signal is promising but confidence or scope needs proof."
+  solve_elsewhere: "Solve outside product when the issue is mainly onboarding sales support documentation CS or pricing."
+  reject: "Reject when strategic fit is outside the roadmap or leverage is too low."

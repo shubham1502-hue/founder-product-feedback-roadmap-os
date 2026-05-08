@@ -1,0 +1,56 @@
+company_name: "Synthetic B2B SaaS Co"
+stage: "Seed"
+business_model: "B2B SaaS with founder-led sales and implementation support"
+product_motion: "Founder-led product discovery with quarterly roadmap cycles"
+analysis_date: "2026-05-08"
+target_segments:
+  - Mid-market
+  - Enterprise
+  - Growth
+strategic_product_themes:
+  - Integrations
+  - Activation workflow
+  - Reporting and analytics
+  - Enterprise administration
+  - Collaboration and permissions
+  - Retention workflows
+current_company_priorities:
+  - Reduce revenue-blocking integration gaps
+  - Protect activated customers at renewal risk
+  - Support expansion into larger teams
+  - Avoid niche customization traps
+high_value_threshold: 75000
+retention_risk_threshold: 70
+expansion_threshold: 70
+revenue_blocked_threshold: 100000
+roadmap_capacity_per_cycle: 5
+functions_involved:
+  - Founder
+  - Product
+  - Engineering
+  - Sales
+  - Customer Success
+  - Support
+  - RevOps
+product_areas:
+  - Integrations
+  - Onboarding
+  - Reporting
+  - Admin
+  - Permissions
+  - Automation
+  - API
+  - Support Experience
+  - Documentation
+  - Packaging
+priority_decision_rules:
+  build_now: "High repeated signal with clear revenue retention or expansion leverage and feasible effort."
+  validate_next: "Strong but incomplete signal that needs customer discovery before build scope."
+  watch: "Useful signal that is not yet repeated or urgent enough for roadmap capacity."
+  defer: "Low leverage or high effort item that should wait for stronger signal."
+  solve_elsewhere: "Issue is better solved by onboarding sales narrative support documentation CS or pricing."
+sensitive_data_note: "All included sample data is synthetic and fictionalized. Replace it with your own tracker before use."
+review_cadence:
+  weekly_product_review: "Every Friday"
+  founder_review: "Every Monday"
+  roadmap_cycle: "Monthly"
