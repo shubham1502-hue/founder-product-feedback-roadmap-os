@@ -2,7 +2,7 @@
 
 Turn customer feedback, sales objections, onboarding blockers, churn drivers, and expansion requests into roadmap priorities and founder-ready product decisions.
 
-This helps founders see which product gaps block revenue, which themes keep repeating, which asks are noisy, and what product, CS, sales, support, or founder action should happen next.
+This helps founders see which product gaps block revenue, which themes keep repeating, which asks are noisy, and what product, CS, sales, support, or founder action should happen next. The core decisions are build now, validate with customers, solve outside product, defer, or reject.
 
 ## Founder quick read
 
@@ -12,6 +12,8 @@ This helps founders see which product gaps block revenue, which themes keep repe
 | Which product gaps are blocking revenue | outputs/product_gap_summary.csv |
 | Which roadmap decisions need owner action | outputs/roadmap_decision_queue.csv |
 | Which issues should be solved outside product | outputs/non_product_fix_queue.csv |
+| Which asks are noisy, low-fit, or should be rejected | outputs/founder_roadmap_memo.md |
+| Which accounts are creating product pressure | outputs/account_feedback_view.csv |
 | Why a feedback item received a score or decision | outputs/score_explanations.csv |
 
 Fastest path:
@@ -154,6 +156,8 @@ After:
 - Use founder-product-feedback-roadmap-os to convert customer and market signals into roadmap priorities.
 - Use [founder-weekly-operating-review-agent](https://github.com/shubham1502-hue/founder-weekly-operating-review-agent) to roll product decisions into weekly review.
 - Use [board-pack-investor-update-agent](https://github.com/shubham1502-hue/board-pack-investor-update-agent) for investor narrative.
+- Use [founder-ai-workflow-roi-os](https://github.com/shubham1502-hue/founder-ai-workflow-roi-os) if feedback tagging, routing, summaries, or roadmap reporting should be automated.
+- Use [startup-metrics-playbook](https://github.com/shubham1502-hue/startup-metrics-playbook) to define product and customer metrics before using them in roadmap decisions.
 - Use [founder-os](https://github.com/shubham1502-hue/founder-os) as the umbrella operating system.
 
 ## Input format
@@ -216,6 +220,26 @@ The base workflow is deterministic. It does not call an LLM, use paid APIs, or h
 - `outputs/score_explanations.csv` explains the drivers behind every recommendation.
 - Every score is generated from CSV fields and YAML rules.
 
+| Recommendation | Founder interpretation |
+| --- | --- |
+| Build now | Strong score, strong strategic fit, and enough revenue, retention, expansion, urgency, or repeated signal to use roadmap capacity |
+| Validate with customers | Promising signal, but scope, confidence, or pattern still needs customer discovery |
+| Add to roadmap candidate list | Worth tracking, but not urgent or repeated enough for this cycle |
+| Solve with onboarding | The issue is better handled through setup, handoff, training, or activation process before product scope |
+| Solve with sales narrative | The issue is mainly positioning, expectation setting, proof, or sales explanation |
+| Solve with support process | The issue is better handled through support, documentation, training, or CS playbook |
+| Defer | The item is not strong enough for current roadmap capacity |
+| Reject | The ask is too niche, low-fit, or outside the company strategy |
+
+Owner recommendations are also deterministic:
+
+- Product owns build-now roadmap work.
+- Founder or Product owns customer validation.
+- Customer Success owns onboarding and customer process fixes.
+- Sales or Founder owns sales narrative fixes.
+- Support or Customer Success owns support, documentation, and training fixes.
+- Founder owns explicit reject calls when a customer ask could distract the roadmap.
+
 ## Example founder workflow
 
 - Monday: Review founder roadmap memo
@@ -240,7 +264,7 @@ Start with `config/company_profile.yml`. Only edit `config/scoring_rules.yml` wh
 
 ## Why this matters
 
-This is not a product backlog. It is a founder operating system for deciding which customer signals deserve roadmap attention.
+This is not a Productboard clone and it is not a generic product backlog. It is a founder operating system for deciding which customer signals deserve roadmap attention, which need validation, which should be solved outside product, which should be deferred, and which should be rejected.
 
 ## Roadmap
 

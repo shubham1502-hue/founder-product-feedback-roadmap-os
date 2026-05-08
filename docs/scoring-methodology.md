@@ -53,6 +53,30 @@ It calculates:
 - Defer: 20 to 39
 - Reject or solve elsewhere: below 20
 
+## Decision routing
+
+The score is not the only rule. A high-pain issue can still be routed outside product if the better fix is operational.
+
+| Decision | Typical reason |
+| --- | --- |
+| Build now | Strong score, high strategic fit, and enough revenue, retention, expansion, urgency, or repeated signal |
+| Validate with customers | Strong signal, but more discovery is needed before using roadmap capacity |
+| Add to roadmap candidate list | Useful signal that should be watched next cycle |
+| Solve with onboarding | Setup, handoff, training, or activation workflow should improve before product scope |
+| Solve with sales narrative | Buyer confusion, positioning, expectation setting, or proof problem |
+| Solve with support process | Support, documentation, training, or CS process should fix the issue |
+| Defer | Low current leverage or high effort relative to the signal |
+| Reject | Outside strategy, niche customization, or poor target segment fit |
+
+## Owner routing
+
+- Product owns build-now roadmap work.
+- Founder or Product owns validation work.
+- Customer Success owns onboarding and customer process fixes.
+- Sales or Founder owns sales narrative fixes.
+- Support or Customer Success owns support, documentation, and training fixes.
+- Founder owns explicit reject calls when a request could distract the roadmap.
+
 ## Why recommendations can differ from scores
 
 Some issues should not become product work even if the customer pain is real. The system routes likely non-product issues into onboarding, sales narrative, support process, documentation, training, CS playbook, pricing, or rejection.
