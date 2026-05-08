@@ -22,6 +22,39 @@ Fastest path:
 3. Run make run.
 4. Open outputs/founder_roadmap_memo.md.
 
+## Output preview
+
+The included sample run produces:
+
+- `outputs/founder_roadmap_memo.md`: founder-ready roadmap decision memo
+- `outputs/roadmap_decision_queue.csv`: build, validate, defer, reject, or solve elsewhere decisions
+- `outputs/product_gap_summary.csv`: repeated product gaps with impact
+- `outputs/non_product_fix_queue.csv`: onboarding, sales, support, docs, or CS fixes
+- `outputs/customer_signal_matrix.csv`: signal strength by theme, source, lifecycle stage, and segment
+- `outputs/account_feedback_view.csv`: account-level feedback pressure
+- `outputs/score_explanations.csv`: score and decision rationale
+
+## 7-day Founder's Office sprint
+
+- Day 1: Pull feedback from sales, onboarding, support, retention, and founder notes
+- Day 2: Clean the feedback tracker and align themes
+- Day 3: Run the roadmap prioritization workflow
+- Day 4: Review build-now, validate-next, and non-product fix queues
+- Day 5: Assign product, CS, sales, support, or founder owners
+- Day 6: Turn top unknowns into customer discovery questions
+- Day 7: Roll roadmap decisions into the weekly operating review
+
+## Founder's Office signal
+
+This repo demonstrates:
+
+- separating signal from loud requests
+- linking customer feedback to revenue, retention, and expansion
+- deciding product versus non-product fixes
+- roadmap tradeoff communication
+- cross-functional owner assignment
+- founder-ready decision memo writing
+
 ## The founder problem
 
 Founders hear product feedback from sales calls, onboarding, support, retention reviews, expansion conversations, demos, and founder intuition. The hard part is deciding what deserves roadmap attention, what needs discovery, what should be solved outside product, and what should be ignored.
